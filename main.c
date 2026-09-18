@@ -16,7 +16,7 @@ void listar_produtos(Produto lista[], int total) {
     printf("\n--- Produtos Cadastrados ---\n");
     for (int i = 0; i < total; i++) {
         // BUG: esqueceram de imprimir o ID e a quebra de linha está inadequada
-        printf("ID: %d| Codigo: %s | Nome: %s | Preco: R$ %.2f | Qtd: %d", lista[i].id, lista[i].codigo_barras, [i].nome, lista[i].preco, lista[i].quantidade);
+        printf("ID: %d| Codigo: %s | Nome: %s | Preco: R$ %.2f | Qtd: %d", lista[i].id, lista[i].codigo_barras, lista[i].nome, lista[i].preco, lista[i].quantidade);
     }
 }
 
